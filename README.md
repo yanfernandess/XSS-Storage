@@ -20,15 +20,16 @@ During testing on ecodotempo.com.br, the stored XSS vulnerability was specifical
 After creating the collection containing the malicious script, logging out, and then accessing the main login page again, the payload was automatically executed in the browser, resulting in a pop-up being displayed. In the test, this was used to demonstrate cookie extraction. This behavior confirms the lack of proper sanitization and the real possibility of arbitrary script execution within the victim’s browser context. See the evidence section below for an example.
 
 <img width="1279" height="743" alt="Criando XSS" src="https://github.com/user-attachments/assets/3c85737c-16cf-4c6d-a644-b970bb3ca548" />
-
+</br>
 
 <img width="1279" height="939" alt="XSS Stored" src="https://github.com/user-attachments/assets/cb1e6c47-5fbd-46ba-a4d1-9d4aefe9d31d" />
-
+</br>
 
 <img width="1279" height="743" alt="Criado com sucesso" src="https://github.com/user-attachments/assets/21fbceb0-351c-4ea3-877a-79e02ae476c3" />
-
+</br>
 
 <img width="1268" height="777" alt="index com xss" src="https://github.com/user-attachments/assets/b325cc1e-0c72-4d28-b00f-036167d1d5e1" />
+</br>
 
 Note: In addition to cookie theft, this vulnerability could be exploited for various malicious purposes such as redirecting users to harmful websites, exfiltrating sensitive data, altering page content for phishing attacks, or executing actions on behalf of the user, as previously described in the impact section.
 
