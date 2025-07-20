@@ -21,9 +21,12 @@ After creating the collection containing the malicious script, logging out, and 
 
 <img width="1279" height="743" alt="Criando XSS" src="https://github.com/user-attachments/assets/3c85737c-16cf-4c6d-a644-b970bb3ca548" />
 
+
 <img width="1279" height="939" alt="XSS Stored" src="https://github.com/user-attachments/assets/cb1e6c47-5fbd-46ba-a4d1-9d4aefe9d31d" />
 
+
 <img width="1279" height="743" alt="Criado com sucesso" src="https://github.com/user-attachments/assets/21fbceb0-351c-4ea3-877a-79e02ae476c3" />
+
 
 <img width="1268" height="777" alt="index com xss" src="https://github.com/user-attachments/assets/b325cc1e-0c72-4d28-b00f-036167d1d5e1" />
 
